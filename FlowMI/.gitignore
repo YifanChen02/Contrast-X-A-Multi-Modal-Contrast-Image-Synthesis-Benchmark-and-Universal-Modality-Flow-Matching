@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Editor / ad-hoc backups
+*.bak
+*.bak_*
+
+# Training artifacts / data
+logs/
+runs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+data/
+*.nii
+*.nii.gz
+
+# macOS resource forks
+._*
+.DS_Store
